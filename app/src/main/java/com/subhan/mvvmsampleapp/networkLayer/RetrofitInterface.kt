@@ -1,7 +1,7 @@
-package com.subhan.mvvmsampleapp.NetworkLayer
+package com.subhan.mvvmsampleapp.networkLayer
 
 
-import com.subhan.mvvmsampleapp.Model.WeatherResponse
+import com.subhan.mvvmsampleapp.model.WeatherResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

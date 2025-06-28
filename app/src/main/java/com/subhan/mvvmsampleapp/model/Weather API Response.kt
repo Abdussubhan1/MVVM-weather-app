@@ -1,4 +1,4 @@
-package com.subhan.mvvmsampleapp.Model
+package com.subhan.mvvmsampleapp.model
 
 data class WeatherResponse(
     val main: Main,

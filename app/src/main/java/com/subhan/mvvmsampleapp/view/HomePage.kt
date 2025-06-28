@@ -1,4 +1,4 @@
-package com.subhan.mvvmsampleapp.View
+package com.subhan.mvvmsampleapp.view
 
 
 import androidx.compose.foundation.layout.Arrangement
@@ -19,7 +19,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.subhan.mvvmsampleapp.ViewModel.HomeViewModel
+import com.subhan.mvvmsampleapp.viewModel.HomeViewModel
 import java.util.Locale
 
 

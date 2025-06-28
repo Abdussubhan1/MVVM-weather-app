@@ -1,4 +1,4 @@
-package com.subhan.mvvmsampleapp.NetworkLayer
+package com.subhan.mvvmsampleapp.networkLayer
 
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient

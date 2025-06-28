@@ -1,9 +1,9 @@
-package com.subhan.mvvmsampleapp.Model
+package com.subhan.mvvmsampleapp.model
 
 import android.content.ContentValues.TAG
 import android.util.Log
-import com.subhan.mvvmsampleapp.NetworkLayer.RetrofitInterface
-import com.subhan.mvvmsampleapp.NetworkLayer.ServiceBuilder
+import com.subhan.mvvmsampleapp.networkLayer.RetrofitInterface
+import com.subhan.mvvmsampleapp.networkLayer.ServiceBuilder
 
 class Repository {
     suspend fun getWeatherData(cityName: String): WeatherData? {

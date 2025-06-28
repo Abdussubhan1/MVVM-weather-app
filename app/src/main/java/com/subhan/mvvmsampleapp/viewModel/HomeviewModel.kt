@@ -1,10 +1,10 @@
-package com.subhan.mvvmsampleapp.ViewModel
+package com.subhan.mvvmsampleapp.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.subhan.mvvmsampleapp.Model.Repository
-import com.subhan.mvvmsampleapp.Model.WeatherData
+import com.subhan.mvvmsampleapp.model.Repository
+import com.subhan.mvvmsampleapp.model.WeatherData
 import kotlinx.coroutines.launch
 
 class HomeViewModel : ViewModel() {
